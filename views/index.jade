@@ -1,0 +1,27 @@
+doctype html
+head
+
+	// link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css")
+
+	// script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js")
+	
+	link(rel="stylesheet" href="style.css")
+	
+	// script(src="reload/reload.js")
+
+
+body
+	#whole
+		h1= title
+
+		#wrp
+			ul#items
+			
+			form(action="")
+				input(id="item" autocomplete="off")
+				button Add
+
+	script(src="jquery.js")
+	// script(src="client.js")
+	script(src="/socket.io/socket.io.js")
+	script(src="client2.js")
